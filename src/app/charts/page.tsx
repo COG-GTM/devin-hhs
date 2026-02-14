@@ -426,7 +426,7 @@ export default function ChartsPage() {
 
               {/* Top States */}
               <div className="border-2 border-black p-6 mb-6">
-                <h3 className="text-xl font-bold mb-1">Top States by Provider Count</h3>
+                <h3 className="text-xl font-bold mb-1">Top Jurisdictions by Provider Count</h3>
                 <p className="text-xs text-gray-500 mb-4">Based on 9M registered healthcare providers (NPPES data)</p>
                 <div className="h-80">
                   <ResponsiveContainer>
@@ -468,7 +468,7 @@ export default function ChartsPage() {
               {/* State/City Summary */}
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="border-2 border-black p-6">
-                  <h3 className="text-lg font-bold mb-4">Top 5 States</h3>
+                  <h3 className="text-lg font-bold mb-4">Top 5 Jurisdictions</h3>
                   <div className="space-y-2">
                     {data.topStates.slice(0, 5).map((s: any, i: number) => (
                       <div key={s.state} className="flex justify-between items-center">
@@ -495,7 +495,8 @@ export default function ChartsPage() {
 
           {/* Summary Stats */}
           <div className="border-2 border-black p-6 mt-8 bg-gray-50">
-            <h3 className="text-xl font-bold mb-4">Dataset Summary</h3>
+            <h3 className="text-xl font-bold mb-2">Dataset Summary</h3>
+            <p className="text-xs text-gray-500 mb-4">50 U.S. states + D.C. + 3 territories (PR, VI, GU)</p>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
               <div className="text-center p-3">
                 <p className="text-2xl font-bold">{data.yearly?.length || 0}</p>
@@ -519,7 +520,7 @@ export default function ChartsPage() {
               </div>
               <div className="text-center p-3">
                 <p className="text-2xl font-bold">{data.topStates?.length || 0}</p>
-                <p className="text-xs text-gray-600">States</p>
+                <p className="text-xs text-gray-600">Jurisdictions</p>
               </div>
               <div className="text-center p-3">
                 <p className="text-2xl font-bold">{data.topCities?.length || 0}</p>
