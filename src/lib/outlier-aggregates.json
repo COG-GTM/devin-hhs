@@ -1,0 +1,17 @@
+{
+  "providerOutliers": [],
+  "hcpcsOutliers": [
+    {
+      "code": "T1019",
+      "spending": 122739547514.26,
+      "claims": 1100608370,
+      "beneficiaries": 55702849,
+      "spendingZScore": 4.33
+    }
+  ],
+  "metadata": {
+    "computedAt": "2026-02-14T15:02:33.347Z",
+    "methodology": "Full dataset z-score analysis (227M rows, threshold: 3 std dev)",
+    "source": "Pre-computed aggregates from opendata.hhs.gov"
+  }
+}

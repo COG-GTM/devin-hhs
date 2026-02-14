@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(mkdir)",
+      "Exec(npm run)",
+      "Exec(git push)",
+      "Exec(npx vercel)"
+    ]
+  }
+}

@@ -1,0 +1,441 @@
+state_fips,district_number,district_name
+01,01,Congressional District 1, Alabama
+01,02,Congressional District 2, Alabama
+01,03,Congressional District 3, Alabama
+01,04,Congressional District 4, Alabama
+01,05,Congressional District 5, Alabama
+01,06,Congressional District 6, Alabama
+01,07,Congressional District 7, Alabama
+06,01,Congressional District 1, California
+06,02,Congressional District 2, California
+06,03,Congressional District 3, California
+06,04,Congressional District 4, California
+06,05,Congressional District 5, California
+06,06,Congressional District 6, California
+06,07,Congressional District 7, California
+06,08,Congressional District 8, California
+06,10,Congressional District 10, California
+06,11,Congressional District 11, California
+06,13,Congressional District 13, California
+06,15,Congressional District 15, California
+06,17,Congressional District 17, California
+06,19,Congressional District 19, California
+06,20,Congressional District 20, California
+06,22,Congressional District 22, California
+06,24,Congressional District 24, California
+06,26,Congressional District 26, California
+06,28,Congressional District 28, California
+06,29,Congressional District 29, California
+06,31,Congressional District 31, California
+06,33,Congressional District 33, California
+06,35,Congressional District 35, California
+06,37,Congressional District 37, California
+26,03,Congressional District 3, Michigan
+26,05,Congressional District 5, Michigan
+26,07,Congressional District 7, Michigan
+26,09,Congressional District 9, Michigan
+26,10,Congressional District 10, Michigan
+26,12,Congressional District 12, Michigan
+26,14,Congressional District 14, Michigan
+28,01,Congressional District 1, Mississippi
+28,03,Congressional District 3, Mississippi
+28,04,Congressional District 4, Mississippi
+35,02,Congressional District 2, New Mexico
+38,00,Congressional District (at Large), North Dakota
+04,02,Congressional District 2, Arizona
+04,04,Congressional District 4, Arizona
+04,05,Congressional District 5, Arizona
+04,07,Congressional District 7, Arizona
+04,09,Congressional District 9, Arizona
+20,02,Congressional District 2, Kansas
+20,04,Congressional District 4, Kansas
+21,01,Congressional District 1, Kentucky
+21,03,Congressional District 3, Kentucky
+21,05,Congressional District 5, Kentucky
+23,01,Congressional District 1, Maine
+27,01,Congressional District 1, Minnesota
+27,02,Congressional District 2, Minnesota
+27,04,Congressional District 4, Minnesota
+27,06,Congressional District 6, Minnesota
+27,08,Congressional District 8, Minnesota
+29,01,Congressional District 1, Missouri
+29,02,Congressional District 2, Missouri
+29,03,Congressional District 3, Missouri
+29,04,Congressional District 4, Missouri
+29,05,Congressional District 5, Missouri
+29,06,Congressional District 6, Missouri
+29,07,Congressional District 7, Missouri
+29,08,Congressional District 8, Missouri
+12,01,Congressional District 1, Florida
+12,02,Congressional District 2, Florida
+12,03,Congressional District 3, Florida
+12,04,Congressional District 4, Florida
+12,05,Congressional District 5, Florida
+12,06,Congressional District 6, Florida
+12,07,Congressional District 7, Florida
+12,08,Congressional District 8, Florida
+12,09,Congressional District 9, Florida
+12,11,Congressional District 11, Florida
+12,13,Congressional District 13, Florida
+12,15,Congressional District 15, Florida
+12,16,Congressional District 16, Florida
+12,18,Congressional District 18, Florida
+12,20,Congressional District 20, Florida
+12,22,Congressional District 22, Florida
+12,23,Congressional District 23, Florida
+12,25,Congressional District 25, Florida
+12,27,Congressional District 27, Florida
+06,38,Congressional District 38, California
+06,40,Congressional District 40, California
+06,42,Congressional District 42, California
+06,44,Congressional District 44, California
+06,46,Congressional District 46, California
+06,47,Congressional District 47, California
+06,49,Congressional District 49, California
+06,51,Congressional District 51, California
+06,53,Congressional District 53, California
+05,02,Congressional District 2, Arkansas
+05,03,Congressional District 3, Arkansas
+09,01,Congressional District 1, Connecticut
+09,03,Congressional District 3, Connecticut
+09,05,Congressional District 5, Connecticut
+11,98,Delegate District (at Large), District of Columbia
+02,00,Congressional District (at Large), Alaska
+08,02,Congressional District 2, Colorado
+08,04,Congressional District 4, Colorado
+08,06,Congressional District 6, Colorado
+10,00,Congressional District (at Large), Delaware
+30,00,Congressional District (at Large), Montana
+13,02,Congressional District 2, Georgia
+13,04,Congressional District 4, Georgia
+13,06,Congressional District 6, Georgia
+13,08,Congressional District 8, Georgia
+13,10,Congressional District 10, Georgia
+13,11,Congressional District 11, Georgia
+13,12,Congressional District 12, Georgia
+13,13,Congressional District 13, Georgia
+13,14,Congressional District 14, Georgia
+15,01,Congressional District 1, Hawaii
+15,02,Congressional District 2, Hawaii
+16,01,Congressional District 1, Idaho
+16,02,Congressional District 2, Idaho
+17,01,Congressional District 1, Illinois
+17,02,Congressional District 2, Illinois
+17,03,Congressional District 3, Illinois
+17,04,Congressional District 4, Illinois
+17,05,Congressional District 5, Illinois
+17,06,Congressional District 6, Illinois
+17,07,Congressional District 7, Illinois
+17,08,Congressional District 8, Illinois
+17,10,Congressional District 10, Illinois
+17,12,Congressional District 12, Illinois
+17,14,Congressional District 14, Illinois
+17,16,Congressional District 16, Illinois
+17,18,Congressional District 18, Illinois
+17,ZZ,Congressional Districts not defined, Illinois
+19,02,Congressional District 2, Iowa
+19,04,Congressional District 4, Iowa
+24,02,Congressional District 2, Maryland
+24,04,Congressional District 4, Maryland
+24,06,Congressional District 6, Maryland
+24,07,Congressional District 7, Maryland
+26,01,Congressional District 1, Michigan
+31,03,Congressional District 3, Nebraska
+32,02,Congressional District 2, Nevada
+32,04,Congressional District 4, Nevada
+33,02,Congressional District 2, New Hampshire
+22,01,Congressional District 1, Louisiana
+22,03,Congressional District 3, Louisiana
+22,05,Congressional District 5, Louisiana
+36,01,Congressional District 1, New York
+36,02,Congressional District 2, New York
+36,04,Congressional District 4, New York
+36,06,Congressional District 6, New York
+36,08,Congressional District 8, New York
+36,09,Congressional District 9, New York
+36,11,Congressional District 11, New York
+36,13,Congressional District 13, New York
+36,15,Congressional District 15, New York
+36,16,Congressional District 16, New York
+36,18,Congressional District 18, New York
+36,20,Congressional District 20, New York
+36,22,Congressional District 22, New York
+36,23,Congressional District 23, New York
+36,25,Congressional District 25, New York
+36,27,Congressional District 27, New York
+37,02,Congressional District 2, North Carolina
+37,03,Congressional District 3, North Carolina
+37,05,Congressional District 5, North Carolina
+37,07,Congressional District 7, North Carolina
+37,08,Congressional District 8, North Carolina
+37,10,Congressional District 10, North Carolina
+37,12,Congressional District 12, North Carolina
+37,13,Congressional District 13, North Carolina
+34,01,Congressional District 1, New Jersey
+34,02,Congressional District 2, New Jersey
+34,03,Congressional District 3, New Jersey
+34,04,Congressional District 4, New Jersey
+34,05,Congressional District 5, New Jersey
+34,06,Congressional District 6, New Jersey
+34,07,Congressional District 7, New Jersey
+34,08,Congressional District 8, New Jersey
+34,09,Congressional District 9, New Jersey
+31,02,Congressional District 2, Nebraska
+34,10,Congressional District 10, New Jersey
+34,11,Congressional District 11, New Jersey
+34,12,Congressional District 12, New Jersey
+18,01,Congressional District 1, Indiana
+18,02,Congressional District 2, Indiana
+18,03,Congressional District 3, Indiana
+18,05,Congressional District 5, Indiana
+18,07,Congressional District 7, Indiana
+18,09,Congressional District 9, Indiana
+25,01,Congressional District 1, Massachusetts
+25,03,Congressional District 3, Massachusetts
+25,05,Congressional District 5, Massachusetts
+25,06,Congressional District 6, Massachusetts
+25,08,Congressional District 8, Massachusetts
+39,03,Congressional District 3, Ohio
+39,04,Congressional District 4, Ohio
+39,06,Congressional District 6, Ohio
+39,08,Congressional District 8, Ohio
+39,10,Congressional District 10, Ohio
+39,12,Congressional District 12, Ohio
+39,13,Congressional District 13, Ohio
+39,15,Congressional District 15, Ohio
+40,01,Congressional District 1, Oklahoma
+40,03,Congressional District 3, Oklahoma
+40,05,Congressional District 5, Oklahoma
+41,01,Congressional District 1, Oregon
+41,03,Congressional District 3, Oregon
+41,05,Congressional District 5, Oregon
+44,02,Congressional District 2, Rhode Island
+42,01,Congressional District 1, Pennsylvania
+42,03,Congressional District 3, Pennsylvania
+42,05,Congressional District 5, Pennsylvania
+42,06,Congressional District 6, Pennsylvania
+42,08,Congressional District 8, Pennsylvania
+42,10,Congressional District 10, Pennsylvania
+42,12,Congressional District 12, Pennsylvania
+42,13,Congressional District 13, Pennsylvania
+42,15,Congressional District 15, Pennsylvania
+42,17,Congressional District 17, Pennsylvania
+42,18,Congressional District 18, Pennsylvania
+45,02,Congressional District 2, South Carolina
+45,04,Congressional District 4, South Carolina
+45,05,Congressional District 5, South Carolina
+45,07,Congressional District 7, South Carolina
+47,01,Congressional District 1, Tennessee
+47,02,Congressional District 2, Tennessee
+47,03,Congressional District 3, Tennessee
+47,04,Congressional District 4, Tennessee
+47,05,Congressional District 5, Tennessee
+47,06,Congressional District 6, Tennessee
+47,07,Congressional District 7, Tennessee
+47,08,Congressional District 8, Tennessee
+47,09,Congressional District 9, Tennessee
+49,01,Congressional District 1, Utah
+39,01,Congressional District 1, Ohio
+49,02,Congressional District 2, Utah
+49,03,Congressional District 3, Utah
+49,04,Congressional District 4, Utah
+50,00,Congressional District (at Large), Vermont
+51,01,Congressional District 1, Virginia
+51,02,Congressional District 2, Virginia
+51,03,Congressional District 3, Virginia
+51,04,Congressional District 4, Virginia
+51,05,Congressional District 5, Virginia
+51,06,Congressional District 6, Virginia
+51,08,Congressional District 8, Virginia
+51,10,Congressional District 10, Virginia
+51,11,Congressional District 11, Virginia
+53,02,Congressional District 2, Washington
+53,05,Congressional District 5, Washington
+53,07,Congressional District 7, Washington
+53,09,Congressional District 9, Washington
+54,01,Congressional District 1, West Virginia
+54,02,Congressional District 2, West Virginia
+55,01,Congressional District 1, Wisconsin
+55,03,Congressional District 3, Wisconsin
+55,04,Congressional District 4, Wisconsin
+55,06,Congressional District 6, Wisconsin
+55,08,Congressional District 8, Wisconsin
+72,98,Resident Commissioner District (at Large), Puerto Rico
+48,01,Congressional District 1, Texas
+48,03,Congressional District 3, Texas
+48,05,Congressional District 5, Texas
+48,06,Congressional District 6, Texas
+48,08,Congressional District 8, Texas
+48,10,Congressional District 10, Texas
+48,12,Congressional District 12, Texas
+48,13,Congressional District 13, Texas
+48,15,Congressional District 15, Texas
+48,17,Congressional District 17, Texas
+48,19,Congressional District 19, Texas
+48,20,Congressional District 20, Texas
+48,22,Congressional District 22, Texas
+48,24,Congressional District 24, Texas
+48,26,Congressional District 26, Texas
+48,27,Congressional District 27, Texas
+48,29,Congressional District 29, Texas
+48,31,Congressional District 31, Texas
+48,33,Congressional District 33, Texas
+48,34,Congressional District 34, Texas
+48,36,Congressional District 36, Texas
+06,09,Congressional District 9, California
+06,12,Congressional District 12, California
+06,14,Congressional District 14, California
+06,16,Congressional District 16, California
+06,18,Congressional District 18, California
+06,21,Congressional District 21, California
+06,23,Congressional District 23, California
+06,25,Congressional District 25, California
+53,04,Congressional District 4, Washington
+06,27,Congressional District 27, California
+06,30,Congressional District 30, California
+06,32,Congressional District 32, California
+06,34,Congressional District 34, California
+06,36,Congressional District 36, California
+06,39,Congressional District 39, California
+06,41,Congressional District 41, California
+06,43,Congressional District 43, California
+06,45,Congressional District 45, California
+06,48,Congressional District 48, California
+06,50,Congressional District 50, California
+06,52,Congressional District 52, California
+05,01,Congressional District 1, Arkansas
+05,04,Congressional District 4, Arkansas
+09,02,Congressional District 2, Connecticut
+09,04,Congressional District 4, Connecticut
+09,ZZ,Congressional Districts not defined, Connecticut
+08,01,Congressional District 1, Colorado
+08,03,Congressional District 3, Colorado
+08,05,Congressional District 5, Colorado
+08,07,Congressional District 7, Colorado
+13,01,Congressional District 1, Georgia
+13,03,Congressional District 3, Georgia
+13,05,Congressional District 5, Georgia
+13,07,Congressional District 7, Georgia
+13,09,Congressional District 9, Georgia
+17,09,Congressional District 9, Illinois
+17,11,Congressional District 11, Illinois
+17,13,Congressional District 13, Illinois
+17,15,Congressional District 15, Illinois
+17,17,Congressional District 17, Illinois
+19,01,Congressional District 1, Iowa
+19,03,Congressional District 3, Iowa
+24,01,Congressional District 1, Maryland
+24,03,Congressional District 3, Maryland
+24,05,Congressional District 5, Maryland
+24,08,Congressional District 8, Maryland
+26,02,Congressional District 2, Michigan
+26,04,Congressional District 4, Michigan
+26,06,Congressional District 6, Michigan
+26,08,Congressional District 8, Michigan
+26,11,Congressional District 11, Michigan
+26,13,Congressional District 13, Michigan
+26,ZZ,Congressional Districts not defined, Michigan
+28,02,Congressional District 2, Mississippi
+35,01,Congressional District 1, New Mexico
+35,03,Congressional District 3, New Mexico
+04,01,Congressional District 1, Arizona
+04,03,Congressional District 3, Arizona
+04,06,Congressional District 6, Arizona
+04,08,Congressional District 8, Arizona
+20,01,Congressional District 1, Kansas
+20,03,Congressional District 3, Kansas
+21,02,Congressional District 2, Kentucky
+21,04,Congressional District 4, Kentucky
+21,06,Congressional District 6, Kentucky
+23,02,Congressional District 2, Maine
+27,03,Congressional District 3, Minnesota
+27,05,Congressional District 5, Minnesota
+27,07,Congressional District 7, Minnesota
+12,10,Congressional District 10, Florida
+12,12,Congressional District 12, Florida
+12,14,Congressional District 14, Florida
+12,17,Congressional District 17, Florida
+12,19,Congressional District 19, Florida
+12,21,Congressional District 21, Florida
+12,24,Congressional District 24, Florida
+12,26,Congressional District 26, Florida
+31,01,Congressional District 1, Nebraska
+32,03,Congressional District 3, Nevada
+33,01,Congressional District 1, New Hampshire
+22,02,Congressional District 2, Louisiana
+22,04,Congressional District 4, Louisiana
+22,06,Congressional District 6, Louisiana
+36,03,Congressional District 3, New York
+36,05,Congressional District 5, New York
+36,07,Congressional District 7, New York
+36,10,Congressional District 10, New York
+36,12,Congressional District 12, New York
+36,14,Congressional District 14, New York
+36,17,Congressional District 17, New York
+36,19,Congressional District 19, New York
+36,21,Congressional District 21, New York
+36,24,Congressional District 24, New York
+36,26,Congressional District 26, New York
+37,01,Congressional District 1, North Carolina
+37,04,Congressional District 4, North Carolina
+37,06,Congressional District 6, North Carolina
+37,09,Congressional District 9, North Carolina
+37,11,Congressional District 11, North Carolina
+18,04,Congressional District 4, Indiana
+18,06,Congressional District 6, Indiana
+18,08,Congressional District 8, Indiana
+25,02,Congressional District 2, Massachusetts
+25,04,Congressional District 4, Massachusetts
+25,07,Congressional District 7, Massachusetts
+25,09,Congressional District 9, Massachusetts
+39,02,Congressional District 2, Ohio
+39,05,Congressional District 5, Ohio
+39,07,Congressional District 7, Ohio
+39,09,Congressional District 9, Ohio
+39,11,Congressional District 11, Ohio
+39,14,Congressional District 14, Ohio
+39,16,Congressional District 16, Ohio
+40,02,Congressional District 2, Oklahoma
+40,04,Congressional District 4, Oklahoma
+41,02,Congressional District 2, Oregon
+41,04,Congressional District 4, Oregon
+44,01,Congressional District 1, Rhode Island
+32,01,Congressional District 1, Nevada
+42,02,Congressional District 2, Pennsylvania
+42,04,Congressional District 4, Pennsylvania
+42,07,Congressional District 7, Pennsylvania
+42,09,Congressional District 9, Pennsylvania
+42,11,Congressional District 11, Pennsylvania
+42,14,Congressional District 14, Pennsylvania
+42,16,Congressional District 16, Pennsylvania
+45,01,Congressional District 1, South Carolina
+45,03,Congressional District 3, South Carolina
+45,06,Congressional District 6, South Carolina
+46,00,Congressional District (at Large), South Dakota
+51,07,Congressional District 7, Virginia
+51,09,Congressional District 9, Virginia
+53,01,Congressional District 1, Washington
+53,06,Congressional District 6, Washington
+53,08,Congressional District 8, Washington
+53,10,Congressional District 10, Washington
+54,03,Congressional District 3, West Virginia
+55,02,Congressional District 2, Wisconsin
+55,05,Congressional District 5, Wisconsin
+55,07,Congressional District 7, Wisconsin
+56,00,Congressional District (at Large), Wyoming
+48,02,Congressional District 2, Texas
+48,04,Congressional District 4, Texas
+48,07,Congressional District 7, Texas
+48,09,Congressional District 9, Texas
+48,11,Congressional District 11, Texas
+48,14,Congressional District 14, Texas
+48,16,Congressional District 16, Texas
+48,18,Congressional District 18, Texas
+48,21,Congressional District 21, Texas
+48,23,Congressional District 23, Texas
+48,25,Congressional District 25, Texas
+48,28,Congressional District 28, Texas
+48,30,Congressional District 30, Texas
+48,32,Congressional District 32, Texas
+48,35,Congressional District 35, Texas
+53,03,Congressional District 3, Washington

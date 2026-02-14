@@ -1,0 +1,3082 @@
+[
+  {
+    "district_code": "AL-01",
+    "state_code": "AL",
+    "state_fips": "01",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "AL-02",
+    "state_code": "AL",
+    "state_fips": "01",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "AL-03",
+    "state_code": "AL",
+    "state_fips": "01",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "AL-04",
+    "state_code": "AL",
+    "state_fips": "01",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "AL-05",
+    "state_code": "AL",
+    "state_fips": "01",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "AL-06",
+    "state_code": "AL",
+    "state_fips": "01",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "AL-07",
+    "state_code": "AL",
+    "state_fips": "01",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "CA-01",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "CA-02",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "CA-03",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "CA-04",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "CA-05",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "CA-06",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "CA-07",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "CA-08",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "CA-10",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "CA-11",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "CA-13",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "CA-15",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "15",
+    "district_name": "Congressional District 15"
+  },
+  {
+    "district_code": "CA-17",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "17",
+    "district_name": "Congressional District 17"
+  },
+  {
+    "district_code": "CA-19",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "19",
+    "district_name": "Congressional District 19"
+  },
+  {
+    "district_code": "CA-20",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "20",
+    "district_name": "Congressional District 20"
+  },
+  {
+    "district_code": "CA-22",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "22",
+    "district_name": "Congressional District 22"
+  },
+  {
+    "district_code": "CA-24",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "24",
+    "district_name": "Congressional District 24"
+  },
+  {
+    "district_code": "CA-26",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "26",
+    "district_name": "Congressional District 26"
+  },
+  {
+    "district_code": "CA-28",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "28",
+    "district_name": "Congressional District 28"
+  },
+  {
+    "district_code": "CA-29",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "29",
+    "district_name": "Congressional District 29"
+  },
+  {
+    "district_code": "CA-31",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "31",
+    "district_name": "Congressional District 31"
+  },
+  {
+    "district_code": "CA-33",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "33",
+    "district_name": "Congressional District 33"
+  },
+  {
+    "district_code": "CA-35",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "35",
+    "district_name": "Congressional District 35"
+  },
+  {
+    "district_code": "CA-37",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "37",
+    "district_name": "Congressional District 37"
+  },
+  {
+    "district_code": "CA-38",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "38",
+    "district_name": "Congressional District 38"
+  },
+  {
+    "district_code": "CA-40",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "40",
+    "district_name": "Congressional District 40"
+  },
+  {
+    "district_code": "CA-42",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "42",
+    "district_name": "Congressional District 42"
+  },
+  {
+    "district_code": "CA-44",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "44",
+    "district_name": "Congressional District 44"
+  },
+  {
+    "district_code": "CA-46",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "46",
+    "district_name": "Congressional District 46"
+  },
+  {
+    "district_code": "CA-47",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "47",
+    "district_name": "Congressional District 47"
+  },
+  {
+    "district_code": "CA-49",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "49",
+    "district_name": "Congressional District 49"
+  },
+  {
+    "district_code": "CA-51",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "51",
+    "district_name": "Congressional District 51"
+  },
+  {
+    "district_code": "CA-53",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "53",
+    "district_name": "Congressional District 53"
+  },
+  {
+    "district_code": "CA-09",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "CA-12",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "CA-14",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "CA-16",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "16",
+    "district_name": "Congressional District 16"
+  },
+  {
+    "district_code": "CA-18",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "18",
+    "district_name": "Congressional District 18"
+  },
+  {
+    "district_code": "CA-21",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "21",
+    "district_name": "Congressional District 21"
+  },
+  {
+    "district_code": "CA-23",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "23",
+    "district_name": "Congressional District 23"
+  },
+  {
+    "district_code": "CA-25",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "25",
+    "district_name": "Congressional District 25"
+  },
+  {
+    "district_code": "CA-27",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "27",
+    "district_name": "Congressional District 27"
+  },
+  {
+    "district_code": "CA-30",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "30",
+    "district_name": "Congressional District 30"
+  },
+  {
+    "district_code": "CA-32",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "32",
+    "district_name": "Congressional District 32"
+  },
+  {
+    "district_code": "CA-34",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "34",
+    "district_name": "Congressional District 34"
+  },
+  {
+    "district_code": "CA-36",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "36",
+    "district_name": "Congressional District 36"
+  },
+  {
+    "district_code": "CA-39",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "39",
+    "district_name": "Congressional District 39"
+  },
+  {
+    "district_code": "CA-41",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "41",
+    "district_name": "Congressional District 41"
+  },
+  {
+    "district_code": "CA-43",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "43",
+    "district_name": "Congressional District 43"
+  },
+  {
+    "district_code": "CA-45",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "45",
+    "district_name": "Congressional District 45"
+  },
+  {
+    "district_code": "CA-48",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "48",
+    "district_name": "Congressional District 48"
+  },
+  {
+    "district_code": "CA-50",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "50",
+    "district_name": "Congressional District 50"
+  },
+  {
+    "district_code": "CA-52",
+    "state_code": "CA",
+    "state_fips": "06",
+    "district_number": "52",
+    "district_name": "Congressional District 52"
+  },
+  {
+    "district_code": "MI-03",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "MI-05",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "MI-07",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "MI-09",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "MI-10",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "MI-12",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "MI-14",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "MI-01",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "MI-02",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "MI-04",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "MI-06",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "MI-08",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "MI-11",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "MI-13",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "MI-ZZ",
+    "state_code": "MI",
+    "state_fips": "26",
+    "district_number": "ZZ",
+    "district_name": "Congressional Districts not defined"
+  },
+  {
+    "district_code": "MS-01",
+    "state_code": "MS",
+    "state_fips": "28",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "MS-03",
+    "state_code": "MS",
+    "state_fips": "28",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "MS-04",
+    "state_code": "MS",
+    "state_fips": "28",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "MS-02",
+    "state_code": "MS",
+    "state_fips": "28",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NM-02",
+    "state_code": "NM",
+    "state_fips": "35",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NM-01",
+    "state_code": "NM",
+    "state_fips": "35",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "NM-03",
+    "state_code": "NM",
+    "state_fips": "35",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "ND-00",
+    "state_code": "ND",
+    "state_fips": "38",
+    "district_number": "00",
+    "district_name": "Congressional District (at Large)"
+  },
+  {
+    "district_code": "AZ-02",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "AZ-04",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "AZ-05",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "AZ-07",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "AZ-09",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "AZ-01",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "AZ-03",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "AZ-06",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "AZ-08",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "KS-02",
+    "state_code": "KS",
+    "state_fips": "20",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "KS-04",
+    "state_code": "KS",
+    "state_fips": "20",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "KS-01",
+    "state_code": "KS",
+    "state_fips": "20",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "KS-03",
+    "state_code": "KS",
+    "state_fips": "20",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "KY-01",
+    "state_code": "KY",
+    "state_fips": "21",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "KY-03",
+    "state_code": "KY",
+    "state_fips": "21",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "KY-05",
+    "state_code": "KY",
+    "state_fips": "21",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "KY-02",
+    "state_code": "KY",
+    "state_fips": "21",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "KY-04",
+    "state_code": "KY",
+    "state_fips": "21",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "KY-06",
+    "state_code": "KY",
+    "state_fips": "21",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "ME-01",
+    "state_code": "ME",
+    "state_fips": "23",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "ME-02",
+    "state_code": "ME",
+    "state_fips": "23",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "MN-01",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "MN-02",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "MN-04",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "MN-06",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "MN-08",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "MN-03",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "MN-05",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "MN-07",
+    "state_code": "MN",
+    "state_fips": "27",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "MO-01",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "MO-02",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "MO-03",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "MO-04",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "MO-05",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "MO-06",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "MO-07",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "MO-08",
+    "state_code": "MO",
+    "state_fips": "29",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "FL-01",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "FL-02",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "FL-03",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "FL-04",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "FL-05",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "FL-06",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "FL-07",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "FL-08",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "FL-09",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "FL-11",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "FL-13",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "FL-15",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "15",
+    "district_name": "Congressional District 15"
+  },
+  {
+    "district_code": "FL-16",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "16",
+    "district_name": "Congressional District 16"
+  },
+  {
+    "district_code": "FL-18",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "18",
+    "district_name": "Congressional District 18"
+  },
+  {
+    "district_code": "FL-20",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "20",
+    "district_name": "Congressional District 20"
+  },
+  {
+    "district_code": "FL-22",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "22",
+    "district_name": "Congressional District 22"
+  },
+  {
+    "district_code": "FL-23",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "23",
+    "district_name": "Congressional District 23"
+  },
+  {
+    "district_code": "FL-25",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "25",
+    "district_name": "Congressional District 25"
+  },
+  {
+    "district_code": "FL-27",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "27",
+    "district_name": "Congressional District 27"
+  },
+  {
+    "district_code": "FL-10",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "FL-12",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "FL-14",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "FL-17",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "17",
+    "district_name": "Congressional District 17"
+  },
+  {
+    "district_code": "FL-19",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "19",
+    "district_name": "Congressional District 19"
+  },
+  {
+    "district_code": "FL-21",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "21",
+    "district_name": "Congressional District 21"
+  },
+  {
+    "district_code": "FL-24",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "24",
+    "district_name": "Congressional District 24"
+  },
+  {
+    "district_code": "FL-26",
+    "state_code": "FL",
+    "state_fips": "12",
+    "district_number": "26",
+    "district_name": "Congressional District 26"
+  },
+  {
+    "district_code": "AR-02",
+    "state_code": "AR",
+    "state_fips": "05",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "AR-03",
+    "state_code": "AR",
+    "state_fips": "05",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "AR-01",
+    "state_code": "AR",
+    "state_fips": "05",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "AR-04",
+    "state_code": "AR",
+    "state_fips": "05",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "CT-01",
+    "state_code": "CT",
+    "state_fips": "09",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "CT-03",
+    "state_code": "CT",
+    "state_fips": "09",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "CT-05",
+    "state_code": "CT",
+    "state_fips": "09",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "CT-02",
+    "state_code": "CT",
+    "state_fips": "09",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "CT-04",
+    "state_code": "CT",
+    "state_fips": "09",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "CT-ZZ",
+    "state_code": "CT",
+    "state_fips": "09",
+    "district_number": "ZZ",
+    "district_name": "Congressional Districts not defined"
+  },
+  {
+    "district_code": "DC-98",
+    "state_code": "DC",
+    "state_fips": "11",
+    "district_number": "98",
+    "district_name": "Delegate District (at Large)"
+  },
+  {
+    "district_code": "AK-00",
+    "state_code": "AK",
+    "state_fips": "02",
+    "district_number": "00",
+    "district_name": "Congressional District (at Large)"
+  },
+  {
+    "district_code": "CO-02",
+    "state_code": "CO",
+    "state_fips": "08",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "CO-04",
+    "state_code": "CO",
+    "state_fips": "08",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "CO-06",
+    "state_code": "CO",
+    "state_fips": "08",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "CO-01",
+    "state_code": "CO",
+    "state_fips": "08",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "CO-03",
+    "state_code": "CO",
+    "state_fips": "08",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "CO-05",
+    "state_code": "CO",
+    "state_fips": "08",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "CO-07",
+    "state_code": "CO",
+    "state_fips": "08",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "DE-00",
+    "state_code": "DE",
+    "state_fips": "10",
+    "district_number": "00",
+    "district_name": "Congressional District (at Large)"
+  },
+  {
+    "district_code": "MT-00",
+    "state_code": "MT",
+    "state_fips": "30",
+    "district_number": "00",
+    "district_name": "Congressional District (at Large)"
+  },
+  {
+    "district_code": "GA-02",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "GA-04",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "GA-06",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "GA-08",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "GA-10",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "GA-11",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "GA-12",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "GA-13",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "GA-14",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "GA-01",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "GA-03",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "GA-05",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "GA-07",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "GA-09",
+    "state_code": "GA",
+    "state_fips": "13",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "HI-01",
+    "state_code": "HI",
+    "state_fips": "15",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "HI-02",
+    "state_code": "HI",
+    "state_fips": "15",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "ID-01",
+    "state_code": "ID",
+    "state_fips": "16",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "ID-02",
+    "state_code": "ID",
+    "state_fips": "16",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "IL-01",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "IL-02",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "IL-03",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "IL-04",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "IL-05",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "IL-06",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "IL-07",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "IL-08",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "IL-10",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "IL-12",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "IL-14",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "IL-16",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "16",
+    "district_name": "Congressional District 16"
+  },
+  {
+    "district_code": "IL-18",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "18",
+    "district_name": "Congressional District 18"
+  },
+  {
+    "district_code": "IL-ZZ",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "ZZ",
+    "district_name": "Congressional Districts not defined"
+  },
+  {
+    "district_code": "IL-09",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "IL-11",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "IL-13",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "IL-15",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "15",
+    "district_name": "Congressional District 15"
+  },
+  {
+    "district_code": "IL-17",
+    "state_code": "IL",
+    "state_fips": "17",
+    "district_number": "17",
+    "district_name": "Congressional District 17"
+  },
+  {
+    "district_code": "IA-02",
+    "state_code": "IA",
+    "state_fips": "19",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "IA-04",
+    "state_code": "IA",
+    "state_fips": "19",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "IA-01",
+    "state_code": "IA",
+    "state_fips": "19",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "IA-03",
+    "state_code": "IA",
+    "state_fips": "19",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "MD-02",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "MD-04",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "MD-06",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "MD-07",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "MD-01",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "MD-03",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "MD-05",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "MD-08",
+    "state_code": "MD",
+    "state_fips": "24",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "NE-03",
+    "state_code": "NE",
+    "state_fips": "31",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "NE-02",
+    "state_code": "NE",
+    "state_fips": "31",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NE-01",
+    "state_code": "NE",
+    "state_fips": "31",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "NV-02",
+    "state_code": "NV",
+    "state_fips": "32",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NV-04",
+    "state_code": "NV",
+    "state_fips": "32",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "NV-03",
+    "state_code": "NV",
+    "state_fips": "32",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "NV-01",
+    "state_code": "NV",
+    "state_fips": "32",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "NH-02",
+    "state_code": "NH",
+    "state_fips": "33",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NH-01",
+    "state_code": "NH",
+    "state_fips": "33",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "LA-01",
+    "state_code": "LA",
+    "state_fips": "22",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "LA-03",
+    "state_code": "LA",
+    "state_fips": "22",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "LA-05",
+    "state_code": "LA",
+    "state_fips": "22",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "LA-02",
+    "state_code": "LA",
+    "state_fips": "22",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "LA-04",
+    "state_code": "LA",
+    "state_fips": "22",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "LA-06",
+    "state_code": "LA",
+    "state_fips": "22",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "NY-01",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "NY-02",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NY-04",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "NY-06",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "NY-08",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "NY-09",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "NY-11",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "NY-13",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "NY-15",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "15",
+    "district_name": "Congressional District 15"
+  },
+  {
+    "district_code": "NY-16",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "16",
+    "district_name": "Congressional District 16"
+  },
+  {
+    "district_code": "NY-18",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "18",
+    "district_name": "Congressional District 18"
+  },
+  {
+    "district_code": "NY-20",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "20",
+    "district_name": "Congressional District 20"
+  },
+  {
+    "district_code": "NY-22",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "22",
+    "district_name": "Congressional District 22"
+  },
+  {
+    "district_code": "NY-23",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "23",
+    "district_name": "Congressional District 23"
+  },
+  {
+    "district_code": "NY-25",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "25",
+    "district_name": "Congressional District 25"
+  },
+  {
+    "district_code": "NY-27",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "27",
+    "district_name": "Congressional District 27"
+  },
+  {
+    "district_code": "NY-03",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "NY-05",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "NY-07",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "NY-10",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "NY-12",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "NY-14",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "NY-17",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "17",
+    "district_name": "Congressional District 17"
+  },
+  {
+    "district_code": "NY-19",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "19",
+    "district_name": "Congressional District 19"
+  },
+  {
+    "district_code": "NY-21",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "21",
+    "district_name": "Congressional District 21"
+  },
+  {
+    "district_code": "NY-24",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "24",
+    "district_name": "Congressional District 24"
+  },
+  {
+    "district_code": "NY-26",
+    "state_code": "NY",
+    "state_fips": "36",
+    "district_number": "26",
+    "district_name": "Congressional District 26"
+  },
+  {
+    "district_code": "NC-02",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NC-03",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "NC-05",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "NC-07",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "NC-08",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "NC-10",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "NC-12",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "NC-13",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "NC-01",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "NC-04",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "NC-06",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "NC-09",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "NC-11",
+    "state_code": "NC",
+    "state_fips": "37",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "NJ-01",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "NJ-02",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "NJ-03",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "NJ-04",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "NJ-05",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "NJ-06",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "NJ-07",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "NJ-08",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "NJ-09",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "NJ-10",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "NJ-11",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "NJ-12",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "IN-01",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "IN-02",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "IN-03",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "IN-05",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "IN-07",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "IN-09",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "IN-04",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "IN-06",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "IN-08",
+    "state_code": "IN",
+    "state_fips": "18",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "MA-01",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "MA-03",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "MA-05",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "MA-06",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "MA-08",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "MA-02",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "MA-04",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "MA-07",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "MA-09",
+    "state_code": "MA",
+    "state_fips": "25",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "OH-03",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "OH-04",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "OH-06",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "OH-08",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "OH-10",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "OH-12",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "OH-13",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "OH-15",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "15",
+    "district_name": "Congressional District 15"
+  },
+  {
+    "district_code": "OH-01",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "OH-02",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "OH-05",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "OH-07",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "OH-09",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "OH-11",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "OH-14",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "OH-16",
+    "state_code": "OH",
+    "state_fips": "39",
+    "district_number": "16",
+    "district_name": "Congressional District 16"
+  },
+  {
+    "district_code": "OK-01",
+    "state_code": "OK",
+    "state_fips": "40",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "OK-03",
+    "state_code": "OK",
+    "state_fips": "40",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "OK-05",
+    "state_code": "OK",
+    "state_fips": "40",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "OK-02",
+    "state_code": "OK",
+    "state_fips": "40",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "OK-04",
+    "state_code": "OK",
+    "state_fips": "40",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "OR-01",
+    "state_code": "OR",
+    "state_fips": "41",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "OR-03",
+    "state_code": "OR",
+    "state_fips": "41",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "OR-05",
+    "state_code": "OR",
+    "state_fips": "41",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "OR-02",
+    "state_code": "OR",
+    "state_fips": "41",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "OR-04",
+    "state_code": "OR",
+    "state_fips": "41",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "RI-02",
+    "state_code": "RI",
+    "state_fips": "44",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "RI-01",
+    "state_code": "RI",
+    "state_fips": "44",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "PA-01",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "PA-03",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "PA-05",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "PA-06",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "PA-08",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "PA-10",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "PA-12",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "PA-13",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "PA-15",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "15",
+    "district_name": "Congressional District 15"
+  },
+  {
+    "district_code": "PA-17",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "17",
+    "district_name": "Congressional District 17"
+  },
+  {
+    "district_code": "PA-18",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "18",
+    "district_name": "Congressional District 18"
+  },
+  {
+    "district_code": "PA-02",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "PA-04",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "PA-07",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "PA-09",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "PA-11",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "PA-14",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "PA-16",
+    "state_code": "PA",
+    "state_fips": "42",
+    "district_number": "16",
+    "district_name": "Congressional District 16"
+  },
+  {
+    "district_code": "SC-02",
+    "state_code": "SC",
+    "state_fips": "45",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "SC-04",
+    "state_code": "SC",
+    "state_fips": "45",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "SC-05",
+    "state_code": "SC",
+    "state_fips": "45",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "SC-07",
+    "state_code": "SC",
+    "state_fips": "45",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "SC-01",
+    "state_code": "SC",
+    "state_fips": "45",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "SC-03",
+    "state_code": "SC",
+    "state_fips": "45",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "SC-06",
+    "state_code": "SC",
+    "state_fips": "45",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "TN-01",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "TN-02",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "TN-03",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "TN-04",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "TN-05",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "TN-06",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "TN-07",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "TN-08",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "TN-09",
+    "state_code": "TN",
+    "state_fips": "47",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "UT-01",
+    "state_code": "UT",
+    "state_fips": "49",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "UT-02",
+    "state_code": "UT",
+    "state_fips": "49",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "UT-03",
+    "state_code": "UT",
+    "state_fips": "49",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "UT-04",
+    "state_code": "UT",
+    "state_fips": "49",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "VT-00",
+    "state_code": "VT",
+    "state_fips": "50",
+    "district_number": "00",
+    "district_name": "Congressional District (at Large)"
+  },
+  {
+    "district_code": "VA-01",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "VA-02",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "VA-03",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "VA-04",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "VA-05",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "VA-06",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "VA-08",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "VA-10",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "VA-11",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "VA-07",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "VA-09",
+    "state_code": "VA",
+    "state_fips": "51",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "WA-02",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "WA-05",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "WA-07",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "WA-09",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "WA-04",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "WA-01",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "WA-06",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "WA-08",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "WA-10",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "WA-03",
+    "state_code": "WA",
+    "state_fips": "53",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "WV-01",
+    "state_code": "WV",
+    "state_fips": "54",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "WV-02",
+    "state_code": "WV",
+    "state_fips": "54",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "WV-03",
+    "state_code": "WV",
+    "state_fips": "54",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "WI-01",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "WI-03",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "WI-04",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "WI-06",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "WI-08",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "WI-02",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "WI-05",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "WI-07",
+    "state_code": "WI",
+    "state_fips": "55",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "PR-98",
+    "state_code": "PR",
+    "state_fips": "72",
+    "district_number": "98",
+    "district_name": "Resident Commissioner District (at Large)"
+  },
+  {
+    "district_code": "TX-01",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "01",
+    "district_name": "Congressional District 1"
+  },
+  {
+    "district_code": "TX-03",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "03",
+    "district_name": "Congressional District 3"
+  },
+  {
+    "district_code": "TX-05",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "05",
+    "district_name": "Congressional District 5"
+  },
+  {
+    "district_code": "TX-06",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "06",
+    "district_name": "Congressional District 6"
+  },
+  {
+    "district_code": "TX-08",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "08",
+    "district_name": "Congressional District 8"
+  },
+  {
+    "district_code": "TX-10",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "10",
+    "district_name": "Congressional District 10"
+  },
+  {
+    "district_code": "TX-12",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "12",
+    "district_name": "Congressional District 12"
+  },
+  {
+    "district_code": "TX-13",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "13",
+    "district_name": "Congressional District 13"
+  },
+  {
+    "district_code": "TX-15",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "15",
+    "district_name": "Congressional District 15"
+  },
+  {
+    "district_code": "TX-17",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "17",
+    "district_name": "Congressional District 17"
+  },
+  {
+    "district_code": "TX-19",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "19",
+    "district_name": "Congressional District 19"
+  },
+  {
+    "district_code": "TX-20",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "20",
+    "district_name": "Congressional District 20"
+  },
+  {
+    "district_code": "TX-22",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "22",
+    "district_name": "Congressional District 22"
+  },
+  {
+    "district_code": "TX-24",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "24",
+    "district_name": "Congressional District 24"
+  },
+  {
+    "district_code": "TX-26",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "26",
+    "district_name": "Congressional District 26"
+  },
+  {
+    "district_code": "TX-27",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "27",
+    "district_name": "Congressional District 27"
+  },
+  {
+    "district_code": "TX-29",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "29",
+    "district_name": "Congressional District 29"
+  },
+  {
+    "district_code": "TX-31",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "31",
+    "district_name": "Congressional District 31"
+  },
+  {
+    "district_code": "TX-33",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "33",
+    "district_name": "Congressional District 33"
+  },
+  {
+    "district_code": "TX-34",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "34",
+    "district_name": "Congressional District 34"
+  },
+  {
+    "district_code": "TX-36",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "36",
+    "district_name": "Congressional District 36"
+  },
+  {
+    "district_code": "TX-02",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "02",
+    "district_name": "Congressional District 2"
+  },
+  {
+    "district_code": "TX-04",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "04",
+    "district_name": "Congressional District 4"
+  },
+  {
+    "district_code": "TX-07",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "07",
+    "district_name": "Congressional District 7"
+  },
+  {
+    "district_code": "TX-09",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "09",
+    "district_name": "Congressional District 9"
+  },
+  {
+    "district_code": "TX-11",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "11",
+    "district_name": "Congressional District 11"
+  },
+  {
+    "district_code": "TX-14",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "14",
+    "district_name": "Congressional District 14"
+  },
+  {
+    "district_code": "TX-16",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "16",
+    "district_name": "Congressional District 16"
+  },
+  {
+    "district_code": "TX-18",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "18",
+    "district_name": "Congressional District 18"
+  },
+  {
+    "district_code": "TX-21",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "21",
+    "district_name": "Congressional District 21"
+  },
+  {
+    "district_code": "TX-23",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "23",
+    "district_name": "Congressional District 23"
+  },
+  {
+    "district_code": "TX-25",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "25",
+    "district_name": "Congressional District 25"
+  },
+  {
+    "district_code": "TX-28",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "28",
+    "district_name": "Congressional District 28"
+  },
+  {
+    "district_code": "TX-30",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "30",
+    "district_name": "Congressional District 30"
+  },
+  {
+    "district_code": "TX-32",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "32",
+    "district_name": "Congressional District 32"
+  },
+  {
+    "district_code": "TX-35",
+    "state_code": "TX",
+    "state_fips": "48",
+    "district_number": "35",
+    "district_name": "Congressional District 35"
+  },
+  {
+    "district_code": "SD-00",
+    "state_code": "SD",
+    "state_fips": "46",
+    "district_number": "00",
+    "district_name": "Congressional District (at Large)"
+  },
+  {
+    "district_code": "WY-00",
+    "state_code": "WY",
+    "state_fips": "56",
+    "district_number": "00",
+    "district_name": "Congressional District (at Large)"
+  }
+]
