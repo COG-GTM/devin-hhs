@@ -93,24 +93,15 @@ export default function AboutPage() {
         {/* Links */}
         <section>
           <h2 className="text-sm font-bold uppercase tracking-wide text-gray-500 mb-4">Links</h2>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div>
             <a 
               href="https://opendata.hhs.gov" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="border-2 border-black p-4 hover:bg-black hover:text-white transition-colors block"
+              className="border-2 border-black p-4 hover:bg-black hover:text-white transition-colors block max-w-md"
             >
               <h3 className="font-bold mb-1">HHS Open Data</h3>
               <p className="text-sm text-gray-600 group-hover:text-gray-300">Official data source</p>
-            </a>
-            <a 
-              href="https://github.com/COG-GTM/devin-hhs" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="border-2 border-black p-4 hover:bg-black hover:text-white transition-colors block"
-            >
-              <h3 className="font-bold mb-1">Source Code</h3>
-              <p className="text-sm text-gray-600 group-hover:text-gray-300">View on GitHub</p>
             </a>
           </div>
         </section>
