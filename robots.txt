@@ -1,0 +1,8 @@
+# Disable deepwiki indexing
+User-agent: deepwiki
+Disallow: /
+
+User-agent: *
+Disallow: /.env
+Disallow: /node_modules/
+
