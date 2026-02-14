@@ -41,12 +41,44 @@ interface FederalData {
   };
 }
 
+// State code to full name lookup
+const STATE_NAMES: Record<string, string> = {
+  'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
+  'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'DC': 'District of Columbia', 'FL': 'Florida',
+  'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana',
+  'IA': 'Iowa', 'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine',
+  'MD': 'Maryland', 'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi',
+  'MO': 'Missouri', 'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire',
+  'NJ': 'New Jersey', 'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota',
+  'OH': 'Ohio', 'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island',
+  'SC': 'South Carolina', 'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah',
+  'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming'
+};
+
+// Parse district code to human readable
+function parseDistrict(code: string): string {
+  const [state, num] = code.split('-');
+  const stateName = STATE_NAMES[state] || state;
+  const districtNum = parseInt(num, 10);
+  if (districtNum === 0 || districtNum === 1 && ['AK', 'DE', 'MT', 'ND', 'SD', 'VT', 'WY'].includes(state)) {
+    return `${stateName} (At-Large)`;
+  }
+  return `${stateName}, ${getOrdinal(districtNum)} Congressional District`;
+}
+
+function getOrdinal(n: number): string {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
 const COLORS = ['#000000', '#666666', '#999999', '#CCCCCC'];
 
 export default function FederalPage() {
   const [data, setData] = useState<FederalData | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'overview' | 'states' | 'districts' | 'charts'>('overview');
+  const [showExplainer, setShowExplainer] = useState(true);
 
   useEffect(() => {
     fetch('/api/federal')
@@ -70,6 +102,7 @@ export default function FederalPage() {
   // Prepare chart data
   const top10FMAP = data.statesByFMAP.slice(0, 10).map(s => ({
     name: s.stateCode,
+    fullName: s.stateName,
     fmap: s.fy2024,
     expansion: s.expansionStatus === 'Y' ? 'Expansion' : 'Non-Expansion'
   }));
@@ -93,6 +126,7 @@ export default function FederalPage() {
 
   const top10Districts = data.topDistricts.slice(0, 10).map(d => ({
     name: d.districtCode,
+    fullName: parseDistrict(d.districtCode),
     spending: d.spending / 1e9,
     zScore: d.zScore
   }));
@@ -113,7 +147,7 @@ export default function FederalPage() {
         <div className="mb-8 flex justify-between items-start">
           <div>
             <h1 className="text-3xl md:text-4xl font-bold">FEDERAL FUNDING</h1>
-            <p className="text-gray-600 mt-2">FMAP rates and congressional district analysis</p>
+            <p className="text-gray-600 mt-2">How the federal government shares Medicaid costs with states</p>
           </div>
           <Link 
             href="/federal/analysis"
@@ -123,27 +157,94 @@ export default function FederalPage() {
           </Link>
         </div>
 
+        {/* FMAP Explainer - Collapsible */}
+        <div className="border-2 border-black mb-8">
+          <button 
+            onClick={() => setShowExplainer(!showExplainer)}
+            className="w-full p-4 text-left font-bold flex justify-between items-center bg-gray-50 hover:bg-gray-100"
+          >
+            <span>Understanding FMAP: A Quick Guide</span>
+            <span className="text-xl">{showExplainer ? '−' : '+'}</span>
+          </button>
+          {showExplainer && (
+            <div className="p-6 space-y-4 text-sm">
+              <div>
+                <h3 className="font-bold text-lg mb-2">What is FMAP?</h3>
+                <p className="text-gray-700">
+                  <strong>FMAP (Federal Medical Assistance Percentage)</strong> is the share of Medicaid costs 
+                  that the federal government pays for each state. If a state has a 70% FMAP, the federal 
+                  government pays 70 cents of every dollar spent on Medicaid, and the state pays 30 cents.
+                </p>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-4 border">
+                  <h4 className="font-bold mb-2">How is it calculated?</h4>
+                  <p className="text-gray-600 text-xs">
+                    FMAP is based on a state&apos;s per-capita income compared to the national average. 
+                    <strong> Poorer states get higher federal matching</strong> (up to 83%), while 
+                    wealthier states get the minimum (50%). This ensures federal support goes where 
+                    it&apos;s needed most.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-4 border">
+                  <h4 className="font-bold mb-2">What does &quot;Expansion&quot; mean?</h4>
+                  <p className="text-gray-600 text-xs">
+                    Under the Affordable Care Act, states can <strong>expand Medicaid</strong> to cover 
+                    more low-income adults. The federal government pays 90% of costs for this expanded 
+                    population. <strong>41 states have expanded</strong>; 10 have not.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-black text-white p-4">
+                <h4 className="font-bold mb-2">Key Insight</h4>
+                <p className="text-sm">
+                  Mississippi has the highest FMAP at 78.82% — meaning the federal government pays nearly 
+                  80% of their Medicaid costs. Meanwhile, wealthy states like California, New York, and 
+                  Massachusetts are at the 50% floor and must fund half their Medicaid programs themselves.
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
+
         {/* Summary Cards */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-          <div className="border-2 border-black p-4">
+          <div className="border-2 border-black p-4 group relative">
             <p className="text-sm text-gray-500">States + DC</p>
             <p className="text-2xl font-bold">{data.summary.totalStates}</p>
+            <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 p-2 bg-black text-white text-xs w-48 z-10">
+              All 50 states plus Washington D.C. and territories
+            </div>
           </div>
-          <div className="border-2 border-black p-4">
+          <div className="border-2 border-black p-4 group relative">
             <p className="text-sm text-gray-500">Avg FMAP</p>
             <p className="text-2xl font-bold">{data.summary.avgFMAP}%</p>
+            <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 p-2 bg-black text-white text-xs w-48 z-10">
+              On average, the federal government pays {data.summary.avgFMAP}% of state Medicaid costs
+            </div>
           </div>
-          <div className="border-2 border-black p-4">
+          <div className="border-2 border-black p-4 group relative">
             <p className="text-sm text-gray-500">Expansion</p>
             <p className="text-2xl font-bold">{data.summary.expansionStates}</p>
+            <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 p-2 bg-black text-white text-xs w-48 z-10">
+              States that expanded Medicaid under the ACA to cover more low-income adults
+            </div>
           </div>
-          <div className="border-2 border-black p-4">
+          <div className="border-2 border-black p-4 group relative">
             <p className="text-sm text-gray-500">Non-Expansion</p>
             <p className="text-2xl font-bold">{data.summary.nonExpansionStates}</p>
+            <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 p-2 bg-black text-white text-xs w-48 z-10">
+              States that have not expanded Medicaid, leaving a &quot;coverage gap&quot; for some residents
+            </div>
           </div>
-          <div className="border-2 border-black p-4">
+          <div className="border-2 border-black p-4 group relative">
             <p className="text-sm text-gray-500">Districts</p>
             <p className="text-2xl font-bold">{data.summary.totalDistricts}</p>
+            <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 p-2 bg-black text-white text-xs w-48 z-10">
+              Congressional districts — each represents ~760,000 people and has one House representative
+            </div>
           </div>
         </div>
 
@@ -165,15 +266,20 @@ export default function FederalPage() {
           <div className="space-y-6">
             {/* Expansion Analysis */}
             <div className="border-2 border-black p-6">
-              <h2 className="font-bold mb-4">MEDICAID EXPANSION ANALYSIS</h2>
+              <h2 className="font-bold mb-2">MEDICAID EXPANSION ANALYSIS</h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Comparing states that expanded Medicaid coverage vs. those that did not
+              </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-gray-100 p-4 border border-gray-300">
                   <p className="text-sm text-gray-700">Expansion States ({data.expansionAnalysis.expansionCount})</p>
                   <p className="text-2xl font-bold">{data.expansionAnalysis.avgExpansionFMAP.toFixed(1)}% avg FMAP</p>
+                  <p className="text-xs text-gray-500 mt-1">Federal govt pays this share of costs</p>
                 </div>
                 <div className="bg-gray-50 p-4 border border-gray-300">
                   <p className="text-sm text-gray-700">Non-Expansion States ({data.expansionAnalysis.nonExpansionCount})</p>
                   <p className="text-2xl font-bold">{data.expansionAnalysis.avgNonExpansionFMAP.toFixed(1)}% avg FMAP</p>
+                  <p className="text-xs text-gray-500 mt-1">Federal govt pays this share of costs</p>
                 </div>
               </div>
             </div>
@@ -181,16 +287,20 @@ export default function FederalPage() {
             {/* Quick Stats */}
             <div className="grid md:grid-cols-2 gap-6">
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">HIGHEST FMAP RATES (FY2024)</h3>
+                <h3 className="font-bold mb-2">STATES WITH HIGHEST FEDERAL SUPPORT</h3>
+                <p className="text-xs text-gray-500 mb-4">These states receive the largest federal share of Medicaid costs</p>
                 <div className="space-y-2">
                   {data.statesByFMAP.slice(0, 5).map((s, i) => (
-                    <div key={s.stateCode} className="flex justify-between items-center border-b pb-2">
+                    <div key={s.stateCode} className="flex justify-between items-center border-b pb-2 group relative">
                       <span className="font-mono">{i+1}. {s.stateName}</span>
                       <div className="flex items-center gap-2">
                         <span className={`text-xs px-2 py-0.5 ${s.expansionStatus === 'Y' ? 'bg-gray-200' : 'bg-gray-100'}`}>
-                          {s.expansionStatus === 'Y' ? 'EXP' : 'NON'}
+                          {s.expansionStatus === 'Y' ? 'Expanded' : 'Not Expanded'}
                         </span>
                         <span className="font-bold">{s.fy2024}%</span>
+                      </div>
+                      <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 p-2 bg-black text-white text-xs w-64 z-10">
+                        Federal govt pays {s.fy2024}% of {s.stateName}&apos;s Medicaid costs. The state pays {(100 - s.fy2024).toFixed(1)}%.
                       </div>
                     </div>
                   ))}
@@ -198,12 +308,17 @@ export default function FederalPage() {
               </div>
 
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">TOP DISTRICTS BY SPENDING</h3>
+                <h3 className="font-bold mb-2">TOP CONGRESSIONAL DISTRICTS BY SPENDING</h3>
+                <p className="text-xs text-gray-500 mb-4">Estimated Medicaid spending by House district</p>
                 <div className="space-y-2">
                   {data.topDistricts.slice(0, 5).map((d, i) => (
-                    <div key={d.districtCode} className="flex justify-between items-center border-b pb-2">
+                    <div key={d.districtCode} className="flex justify-between items-center border-b pb-2 group relative">
                       <span className="font-mono">{i+1}. {d.districtCode}</span>
                       <span className="font-bold">{fmt(d.spending)}</span>
+                      <div className="hidden group-hover:block absolute bottom-full left-0 mb-2 p-2 bg-black text-white text-xs w-64 z-10">
+                        <strong>{parseDistrict(d.districtCode)}</strong><br/>
+                        Estimated ${(d.spending / 1e9).toFixed(2)} billion in Medicaid spending
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -219,13 +334,20 @@ export default function FederalPage() {
             <div className="grid md:grid-cols-2 gap-6">
               {/* Top 10 FMAP */}
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">TOP 10 STATES BY FMAP RATE</h3>
+                <h3 className="font-bold mb-2">TOP 10 STATES BY FEDERAL SUPPORT</h3>
+                <p className="text-xs text-gray-500 mb-4">Higher % = federal govt pays more of the costs</p>
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart data={top10FMAP} layout="vertical" margin={{ left: 40 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis type="number" domain={[50, 80]} tickFormatter={(v) => `${v}%`} />
                     <YAxis type="category" dataKey="name" />
-                    <Tooltip formatter={(v) => v != null ? `${v}%` : ""} />
+                    <Tooltip 
+                      formatter={(v) => v != null ? `${v}%` : ""} 
+                      labelFormatter={(label) => {
+                        const item = top10FMAP.find(d => d.name === label);
+                        return item ? item.fullName : label;
+                      }}
+                    />
                     <Bar dataKey="fmap" fill="#000000" />
                   </BarChart>
                 </ResponsiveContainer>
@@ -233,7 +355,8 @@ export default function FederalPage() {
 
               {/* Expansion Pie */}
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">EXPANSION STATUS</h3>
+                <h3 className="font-bold mb-2">MEDICAID EXPANSION STATUS</h3>
+                <p className="text-xs text-gray-500 mb-4">How many states expanded coverage under the ACA</p>
                 <ResponsiveContainer width="100%" height={300}>
                   <PieChart>
                     <Pie
@@ -259,7 +382,8 @@ export default function FederalPage() {
             <div className="grid md:grid-cols-2 gap-6">
               {/* FMAP Trend */}
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">FMAP TREND (TOP 5 STATES)</h3>
+                <h3 className="font-bold mb-2">FMAP CHANGES OVER TIME</h3>
+                <p className="text-xs text-gray-500 mb-4">How federal support has shifted for top states</p>
                 <ResponsiveContainer width="100%" height={300}>
                   <LineChart data={fmapTrendData}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -276,7 +400,8 @@ export default function FederalPage() {
 
               {/* Expansion Comparison */}
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">AVG FMAP: EXPANSION VS NON-EXPANSION</h3>
+                <h3 className="font-bold mb-2">EXPANSION VS NON-EXPANSION</h3>
+                <p className="text-xs text-gray-500 mb-4">Average federal support by expansion status</p>
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart data={expansionComparison}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -293,7 +418,8 @@ export default function FederalPage() {
             <div className="grid md:grid-cols-2 gap-6">
               {/* FMAP Distribution */}
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">FMAP DISTRIBUTION</h3>
+                <h3 className="font-bold mb-2">HOW STATES ARE DISTRIBUTED</h3>
+                <p className="text-xs text-gray-500 mb-4">Number of states in each FMAP range</p>
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart data={fmapDistribution}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -307,13 +433,20 @@ export default function FederalPage() {
 
               {/* Top Districts */}
               <div className="border-2 border-black p-6">
-                <h3 className="font-bold mb-4">TOP 10 DISTRICTS BY SPENDING</h3>
+                <h3 className="font-bold mb-2">TOP CONGRESSIONAL DISTRICTS</h3>
+                <p className="text-xs text-gray-500 mb-4">Highest estimated Medicaid spending by House district</p>
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart data={top10Districts} layout="vertical" margin={{ left: 50 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis type="number" tickFormatter={(v) => `$${v}B`} />
                     <YAxis type="category" dataKey="name" />
-                    <Tooltip formatter={(v) => v != null ? `$${Number(v).toFixed(2)}B` : ""} />
+                    <Tooltip 
+                      formatter={(v) => v != null ? `$${Number(v).toFixed(2)}B` : ""}
+                      labelFormatter={(label) => {
+                        const item = top10Districts.find(d => d.name === label);
+                        return item ? item.fullName : label;
+                      }}
+                    />
                     <Bar dataKey="spending" fill="#000000" />
                   </BarChart>
                 </ResponsiveContainer>
@@ -326,22 +459,23 @@ export default function FederalPage() {
         {activeTab === 'states' && (
           <div className="border-2 border-black">
             <div className="bg-gray-50 p-4 border-b-2 border-black">
-              <h2 className="font-bold">ALL STATES BY FMAP RATE</h2>
+              <h2 className="font-bold">ALL STATES BY FEDERAL SUPPORT</h2>
+              <p className="text-xs text-gray-500">Higher FMAP = federal govt pays more of Medicaid costs</p>
             </div>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead className="bg-black text-white">
                   <tr>
                     <th className="p-3 text-left">State</th>
-                    <th className="p-3 text-right">FY2024</th>
+                    <th className="p-3 text-right">FY2024 FMAP</th>
                     <th className="p-3 text-right">FY2023</th>
                     <th className="p-3 text-right">FY2022</th>
-                    <th className="p-3 text-center">Expansion</th>
+                    <th className="p-3 text-center">Expanded</th>
                   </tr>
                 </thead>
                 <tbody>
                   {data.statesByFMAP.map((s, i) => (
-                    <tr key={s.stateCode} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                    <tr key={s.stateCode} className={`${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} group relative`}>
                       <td className="p-3 font-mono">{s.stateName}</td>
                       <td className="p-3 text-right font-bold">{s.fy2024}%</td>
                       <td className="p-3 text-right">{s.fy2023}%</td>
@@ -364,16 +498,18 @@ export default function FederalPage() {
           <div className="border-2 border-black">
             <div className="bg-gray-50 p-4 border-b-2 border-black">
               <h2 className="font-bold">CONGRESSIONAL DISTRICTS BY SPENDING</h2>
-              <p className="text-sm text-gray-600">State spending distributed proportionally across districts</p>
+              <p className="text-xs text-gray-500">
+                Each district has one House representative. Spending is estimated by distributing state totals proportionally.
+              </p>
             </div>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead className="bg-black text-white">
                   <tr>
                     <th className="p-3 text-left">Rank</th>
+                    <th className="p-3 text-left">Code</th>
                     <th className="p-3 text-left">District</th>
-                    <th className="p-3 text-right">Spending</th>
-                    <th className="p-3 text-right">Z-Score</th>
+                    <th className="p-3 text-right">Est. Spending</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -381,14 +517,8 @@ export default function FederalPage() {
                     <tr key={d.districtCode} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                       <td className="p-3">{i + 1}</td>
                       <td className="p-3 font-mono">{d.districtCode}</td>
+                      <td className="p-3 text-gray-600">{parseDistrict(d.districtCode)}</td>
                       <td className="p-3 text-right font-bold">{fmt(d.spending)}</td>
-                      <td className="p-3 text-right">
-                        {d.zScore > 3 ? (
-                          <span className="bg-gray-200 px-2 py-1">{d.zScore}σ</span>
-                        ) : (
-                          <span>{d.zScore}σ</span>
-                        )}
-                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -399,12 +529,21 @@ export default function FederalPage() {
 
         {/* Methodology */}
         <div className="border-2 border-black p-4 mt-8 bg-gray-50">
-          <h3 className="font-bold mb-2">Methodology</h3>
-          <p className="text-sm text-gray-600">
-            FMAP (Federal Medical Assistance Percentage) rates from CMS determine the federal share of Medicaid costs.
-            District spending is estimated by distributing state totals proportionally across congressional districts.
-            Data sources: CMS FMAP rates (FY2022-2024), Census congressional district boundaries, HHS Medicaid spending data.
-          </p>
+          <h3 className="font-bold mb-2">How to Read This Data</h3>
+          <div className="text-sm text-gray-600 space-y-2">
+            <p>
+              <strong>FMAP</strong> rates determine how Medicaid costs are split between federal and state governments. 
+              A 70% FMAP means Washington pays 70 cents and the state pays 30 cents of every Medicaid dollar.
+            </p>
+            <p>
+              <strong>Congressional district spending</strong> is estimated by dividing each state&apos;s total Medicaid 
+              spending across its House districts. This shows where federal healthcare dollars flow geographically.
+            </p>
+            <p>
+              <strong>Data sources:</strong> CMS FMAP rates (FY2022-2024), Census congressional district boundaries, 
+              HHS Medicaid Provider Utilization data.
+            </p>
+          </div>
         </div>
       </div>
     </div>
