@@ -151,6 +151,58 @@ test.describe('DEVIN//HHS Application', () => {
     });
   });
 
+  test.describe('Federal Page', () => {
+    test('loads with summary cards', async ({ page }) => {
+      await page.goto('/federal');
+      await expect(page.locator('text=FEDERAL FUNDING')).toBeVisible();
+    });
+
+    test('displays FMAP data', async ({ page }) => {
+      await page.goto('/federal');
+      await expect(page.locator('text=Avg FMAP')).toBeVisible({ timeout: 10000 });
+    });
+
+    test('shows expansion analysis', async ({ page }) => {
+      await page.goto('/federal');
+      await expect(page.locator('text=MEDICAID EXPANSION')).toBeVisible({ timeout: 10000 });
+    });
+
+    test('has working tabs', async ({ page }) => {
+      await page.goto('/federal');
+      await page.click('text=Charts');
+      await expect(page.locator('text=TOP 10 STATES BY FMAP RATE')).toBeVisible({ timeout: 10000 });
+    });
+
+    test('federal analysis page loads', async ({ page }) => {
+      await page.goto('/federal/analysis');
+      await expect(page.locator('text=FEDERAL FUNDING ANALYSIS')).toBeVisible();
+    });
+
+    test('federal analysis has insights', async ({ page }) => {
+      await page.goto('/federal/analysis');
+      await expect(page.locator('text=Key Findings')).toBeVisible({ timeout: 10000 });
+    });
+  });
+
+  test.describe('Federal API', () => {
+    test('GET /api/federal returns data', async ({ request }) => {
+      const response = await request.get('/api/federal');
+      expect(response.ok()).toBeTruthy();
+      const data = await response.json();
+      expect(data).toHaveProperty('summary');
+      expect(data.summary.totalStates).toBe(51);
+    });
+
+    test('GET /api/federal/analysis returns insights', async ({ request }) => {
+      const response = await request.get('/api/federal/analysis');
+      expect(response.ok()).toBeTruthy();
+      const data = await response.json();
+      expect(data).toHaveProperty('summary');
+      expect(data).toHaveProperty('insights');
+      expect(data.insights.length).toBeGreaterThan(0);
+    });
+  });
+
   test.describe('Performance', () => {
     test('homepage loads within 5 seconds', async ({ page }) => {
       const start = Date.now();
