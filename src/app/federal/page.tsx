@@ -149,12 +149,20 @@ export default function FederalPage() {
             <h1 className="text-3xl md:text-4xl font-bold">FEDERAL FUNDING</h1>
             <p className="text-gray-600 mt-2">How the federal government shares Medicaid costs with states</p>
           </div>
-          <Link 
-            href="/federal/analysis"
-            className="border-2 border-black px-4 py-2 font-bold hover:bg-black hover:text-white transition-colors"
-          >
-            AI Analysis
-          </Link>
+          <div className="flex gap-2">
+            <Link 
+              href="/federal/outliers"
+              className="border-2 border-black px-4 py-2 font-bold hover:bg-black hover:text-white transition-colors"
+            >
+              Per-Capita Outliers
+            </Link>
+            <Link 
+              href="/federal/analysis"
+              className="border-2 border-black px-4 py-2 font-bold hover:bg-black hover:text-white transition-colors"
+            >
+              AI Analysis
+            </Link>
+          </div>
         </div>
 
         {/* FMAP Explainer - Collapsible */}
