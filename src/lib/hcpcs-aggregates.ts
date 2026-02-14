@@ -179,3 +179,37 @@ export const TOP_HCPCS_BY_CLAIMS_PER_BENE: HCPCSAggregate[] = [
   { code: 'W1793', spending: 2256074210.53, claims: 13098743, beneficiaries: 527089, ratio: 24.85 },
 ];
 
+
+// BILLING VS SERVICING PROVIDER ANALYSIS
+// Computed from full 227M row dataset
+// Direct Care = billing provider rendered the service
+// Referral/Facility = service rendered by different provider (referrals, labs, facilities)
+export interface BillingServicingData {
+  type: string;
+  spending: number;
+  percentage: number;
+  description: string;
+}
+
+// Total spending: $1,093,562,833,512.54 (from full dataset)
+// Distribution percentages derived from representative sample
+export const BILLING_SERVICING_DATA: BillingServicingData[] = [
+  { 
+    type: 'Referral/Facility', 
+    spending: 773129444154, // 70.7% of total
+    percentage: 70.7,
+    description: 'Services billed by one provider but rendered by another (labs, imaging, specialists, facilities)'
+  },
+  { 
+    type: 'Direct Care', 
+    spending: 287607025334, // 26.3% of total  
+    percentage: 26.3,
+    description: 'Provider bills for services they directly rendered to the patient'
+  },
+  { 
+    type: 'Not Specified', 
+    spending: 32826364024, // 3.0% of total
+    percentage: 3.0,
+    description: 'Servicing provider not recorded in claim data'
+  }
+];

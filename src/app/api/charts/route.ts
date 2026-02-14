@@ -8,7 +8,8 @@ import {
   TOP_HCPCS_BY_BENEFICIARIES,
   TOP_HCPCS_BY_COST_PER_CLAIM,
   TOP_HCPCS_BY_COST_PER_BENE,
-  TOP_HCPCS_BY_CLAIMS_PER_BENE
+  TOP_HCPCS_BY_CLAIMS_PER_BENE,
+  BILLING_SERVICING_DATA
 } from '@/lib/hcpcs-aggregates';
 import { getHCPCSDefinition, getHCPCSCategory } from '@/lib/hcpcs-definitions';
 
@@ -184,7 +185,12 @@ export async function GET() {
       costPerClaim,
       costPerBeneficiary,
       concentration,
-      billingServicing: [],
+      billingServicing: BILLING_SERVICING_DATA.map(d => ({
+        type: d.type,
+        spending: d.spending,
+        percentage: d.percentage,
+        description: d.description
+      })),
       claimsPerBene,
       categories,
       providerTiers,
