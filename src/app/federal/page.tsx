@@ -149,7 +149,13 @@ export default function FederalPage() {
             <h1 className="text-3xl md:text-4xl font-bold">FEDERAL FUNDING</h1>
             <p className="text-gray-600 mt-2">How the federal government shares Medicaid costs with states</p>
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
+            <Link 
+              href="/federal/explore"
+              className="border-2 border-black px-4 py-2 font-bold hover:bg-black hover:text-white transition-colors"
+            >
+              Explore Data
+            </Link>
             <Link 
               href="/federal/outliers"
               className="border-2 border-black px-4 py-2 font-bold hover:bg-black hover:text-white transition-colors"
@@ -547,10 +553,50 @@ export default function FederalPage() {
               <strong>Congressional district spending</strong> is estimated by dividing each state&apos;s total Medicaid 
               spending across its House districts. This shows where federal healthcare dollars flow geographically.
             </p>
-            <p>
-              <strong>Data sources:</strong> CMS FMAP rates (FY2022-2024), Census congressional district boundaries, 
-              HHS Medicaid Provider Utilization data.
-            </p>
+          </div>
+          <div className="mt-4 pt-4 border-t border-gray-300">
+            <h4 className="font-bold text-sm mb-2">DATA SOURCES (Click to verify)</h4>
+            <div className="flex flex-wrap gap-3 text-xs">
+              <a 
+                href="https://www.medicaid.gov/medicaid/finance/state-financials/federal-matching-rates-and-data/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:no-underline"
+              >
+                CMS FMAP Rates
+              </a>
+              <span className="text-gray-400">|</span>
+              <a 
+                href="https://data.census.gov/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:no-underline"
+              >
+                Census 2020 Population
+              </a>
+              <span className="text-gray-400">|</span>
+              <a 
+                href="https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicaid-provider-utilization-and-payment-data"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:no-underline"
+              >
+                HHS Provider Utilization
+              </a>
+              <span className="text-gray-400">|</span>
+              <a 
+                href="https://www.kff.org/medicaid/issue-brief/status-of-state-medicaid-expansion-decisions-interactive-map/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:no-underline"
+              >
+                KFF Expansion Status
+              </a>
+              <span className="text-gray-400">|</span>
+              <Link href="/sources" className="underline hover:no-underline font-bold">
+                All Sources
+              </Link>
+            </div>
           </div>
         </div>
       </div>

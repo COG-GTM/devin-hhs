@@ -91,6 +91,9 @@ export default function RootLayout({
               <Link href="/federal" className="py-3 text-sm font-bold hover:bg-black hover:text-white px-3 transition-colors">
                 Federal
               </Link>
+              <Link href="/sources" className="py-3 text-sm font-bold hover:bg-black hover:text-white px-3 transition-colors">
+                Sources
+              </Link>
               <Link href="/about" className="py-3 text-sm font-bold hover:bg-black hover:text-white px-3 transition-colors">
                 About
               </Link>
