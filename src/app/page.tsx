@@ -185,6 +185,52 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Federal Funding Overview */}
+      <section className="py-12 px-4 border-t-2 border-black">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center justify-between mb-8">
+            <h2 className="text-sm font-bold uppercase tracking-wide text-gray-500">
+              Federal Funding Overview
+            </h2>
+            <Link href="/federal" className="text-sm font-bold underline hover:text-gray-600">
+              View Federal Analysis
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
+            <div className="bg-white border-2 border-black p-6">
+              <p className="text-3xl md:text-4xl font-bold">51</p>
+              <p className="text-sm text-gray-600 mt-2">States & Territories</p>
+            </div>
+            <div className="bg-white border-2 border-black p-6">
+              <p className="text-3xl md:text-4xl font-bold">61.4%</p>
+              <p className="text-sm text-gray-600 mt-2">Avg FMAP Rate</p>
+            </div>
+            <div className="bg-white border-2 border-black p-6">
+              <p className="text-3xl md:text-4xl font-bold">41</p>
+              <p className="text-sm text-gray-600 mt-2">Expansion States</p>
+            </div>
+            <div className="bg-white border-2 border-black p-6">
+              <p className="text-3xl md:text-4xl font-bold">436</p>
+              <p className="text-sm text-gray-600 mt-2">Congressional Districts</p>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <Link href="/federal" className="block border-2 border-black p-6 hover:bg-black hover:text-white transition-colors group">
+              <h3 className="text-xl font-bold mb-2">FMAP Analysis</h3>
+              <p className="text-sm text-gray-600 group-hover:text-gray-300">
+                Federal Medical Assistance Percentage rates by state, expansion status comparison, and trend analysis.
+              </p>
+            </Link>
+            <Link href="/federal/analysis" className="block border-2 border-black p-6 hover:bg-black hover:text-white transition-colors group">
+              <h3 className="text-xl font-bold mb-2">Federal AI Insights</h3>
+              <p className="text-sm text-gray-600 group-hover:text-gray-300">
+                Policy implications, key findings, and economist-grade analysis of federal Medicaid funding.
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Quick Links */}
       <section className="py-16 px-4 border-t-2 border-black">
         <div className="max-w-6xl mx-auto">
