@@ -13,6 +13,16 @@ import {
 } from '@/lib/hcpcs-aggregates';
 import { getHCPCSDefinition, getHCPCSCategory } from '@/lib/hcpcs-definitions';
 
+// Valid US state and territory codes (50 states + DC + 5 territories)
+const VALID_STATE_CODES = new Set([
+  'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
+  'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
+  'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ',
+  'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
+  'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY',
+  'DC', 'PR', 'VI', 'GU', 'AS', 'MP'
+]);
+
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
@@ -145,24 +155,30 @@ export async function GET() {
       .sort((a, b) => b.spending - a.spending);
 
     // Geographic data from pre-computed aggregates (with per capita from Census)
-    const topStates = STATES_BY_SPENDING.map(s => ({
-      state: s.state,
-      name: getStateName(s.state),
-      spending: s.spending,
-      claims: s.claims,
-      providers: s.providers,
-      population: s.population,
-      perCapita: s.perCapita
-    }));
+    // Filter out invalid state codes (military APO/FPO, data entry errors)
+    const topStates = STATES_BY_SPENDING
+      .filter(s => VALID_STATE_CODES.has(s.state))
+      .map(s => ({
+        state: s.state,
+        name: getStateName(s.state),
+        spending: s.spending,
+        claims: s.claims,
+        providers: s.providers,
+        population: s.population,
+        perCapita: s.perCapita
+      }));
 
     // States by per capita spending (highest spending per person)
-    const topStatesByPerCapita = STATES_BY_PER_CAPITA.slice(0, 10).map(s => ({
-      state: s.state,
-      name: getStateName(s.state),
-      spending: s.spending,
-      population: s.population,
-      perCapita: s.perCapita
-    }));
+    const topStatesByPerCapita = STATES_BY_PER_CAPITA
+      .filter(s => VALID_STATE_CODES.has(s.state))
+      .slice(0, 10)
+      .map(s => ({
+        state: s.state,
+        name: getStateName(s.state),
+        spending: s.spending,
+        population: s.population,
+        perCapita: s.perCapita
+      }));
 
     const topCities = TOP_CITIES.slice(0, 50).map(c => ({
       city: c.city,
